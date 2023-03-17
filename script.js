@@ -3,10 +3,11 @@
 function palindrome(str){
 
 	let str1 = str.replaceAll(" ","");
-	const string = str1.reverse();
-	if( str1 == string){
-		return true;
-	}	
-  return false;
+	for(let i=0;i<str1.length/2;i++){
+		if(str1.charAt[i] != str1.charAt[str1.length - 1 - i]){
+			return false;
+		}
+	}
+   return true;
 }
 module.exports = palindrome
