@@ -12,9 +12,9 @@
       return rev_str;
     }
 function palindrome(str){
-let  reverse_str = reverse(str);
+let  reverse_str = reverse(str).toLowerCase();
      
-      if( reverse_str === str)
+      if( reverse_str === str.toLowerCase())
       {
        return true;
       }
