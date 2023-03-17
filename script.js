@@ -7,7 +7,7 @@ function palindrome(str){
 		string = string +str.charAt[i];
 	}
 
-	if(str == string){
+	if(str === string){
 		return true;
 	}
    return false;
